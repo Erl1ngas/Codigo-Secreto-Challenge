@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(cryptex.jpg);
+  background-size: 100% ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  padding: 30px;
+  width: 40vw;
+  font-size: xxx-large;
+  margin: auto;
+  font-family: 'Chakra Petch', sans-serif;
+  color: whitesmoke;
+  text-shadow: lightgray;
+
+
+}
+
+.box {
+  padding: 50px;
+  margin: 0 20px 0 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+  background-color: #000;
+  border-radius: 0.5em;
+  color: #fff;
+  width: auto;
+  height: auto;
+  opacity: 0.8;
+}
+
+.btn {
+  border: 0.5;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0.5em;
+
+}
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  display: block;
+  opacity: 1;
+  padding: 0.5em;
+  width: 100%;
+  height: 50px;
+  font-size: large;
+  font-family: 'Chakra Petch', sans-serif;
+  opacity: none;
+  
+}
